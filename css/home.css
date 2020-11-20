@@ -7,10 +7,10 @@ body {
     width: 100%;
     font-family: "Exo" sans-serif;
     color: #fff;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 500%;
-    -webkit-animation: gradientBG 10s ease infinite;
-    animation: gradientBG 10s ease infinite;
+    background: linear-gradient(-225deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 100%;
+    -webkit-animation: gradientBG 5s ease infinite;
+    animation: gradientBG 5s ease infinite;
 }
 div {
     -webkit-filter: alpha 100;
