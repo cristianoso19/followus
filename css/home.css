@@ -32,6 +32,18 @@ div {
     font-size: 2.5em;
 }
 
+.social-links {
+    margin: 16px 0;
+}
+
+.social-links-box {
+    background-color: #fff;
+    margin: 16px 16px 0 16px;
+    min-width: 80%;
+    height: 75px;
+    border-radius: 16px;
+}
+
 @-webkit-keyframes gradientBG {
     0% {
         background-position: 0% 50%;
