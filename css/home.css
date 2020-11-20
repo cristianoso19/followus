@@ -12,19 +12,22 @@ body {
     -webkit-animation: gradientBG 5s ease infinite;
     animation: gradientBG 5s ease infinite;
 }
-div {
+/*div {
     -webkit-filter: alpha 100;
     filter: alpha 100;
     opacity: 1;
     z-index: 1;
-}
+}*/
 .hero {
     text-align: center;
     font-family: "Paytone One";
     letter-spacing: 2px;
 }
 
-
+.main-logo {
+    margin: 10px auto;
+    width: 50%;
+}
 
 .land-subtitle {
     margin: 0;
@@ -41,20 +44,45 @@ div {
 
 .social-links-box {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     background-color: #fff;
     margin: 16px 16px 0 16px;
     min-width: 80%;
-    height: 75px;
+    height: 65px;
     border-radius: 16px;
-}
-
-.social-links-box i {
+    font-family: "Montserrat";
+    font-weight: bold;
     color: #1778f2;
-    font-size: 70px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
 
+.social-links-box p {
+    padding-right: 10px;
+}
+
+.social-links-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    padding-left: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whatsapp {
+    color: #00E676;
+}
 @-webkit-keyframes gradientBG {
     0% {
         background-position: 0% 50%;
