@@ -23,6 +23,9 @@ div {
     font-family: "Paytone One";
     letter-spacing: 2px;
 }
+
+
+
 .land-subtitle {
     margin: 0;
 }
@@ -37,11 +40,19 @@ div {
 }
 
 .social-links-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #fff;
     margin: 16px 16px 0 16px;
     min-width: 80%;
     height: 75px;
     border-radius: 16px;
+}
+
+.social-links-box i {
+    color: #1778f2;
+    font-size: 70px;
 }
 
 @-webkit-keyframes gradientBG {
