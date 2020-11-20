@@ -1,9 +1,9 @@
 html,
 body {
     overflow: hidden;
-    padding: 0;
     margin: 0;
     height: 100vh;
+    min-height:100%;
     width: 100%;
     font-family: "Paytone One" sans-serif;
     color: #fff;
@@ -11,6 +11,8 @@ body {
     background-size: 400% 100%;
     -webkit-animation: gradientBG 5s ease infinite;
     animation: gradientBG 5s ease infinite;
+    position: relative;
+    padding: 0 0 80px;
 }
 /*div {
     -webkit-filter: alpha 100;
@@ -82,6 +84,17 @@ body {
 
 .whatsapp {
     color: #00E676;
+}
+.footer {
+    text-align: center;
+    margin: auto 0;
+    font-family: "Paytone One";
+    font-size: 12px;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    left: 0 ; right: 0; bottom: 60px;
+    height: 60px
 }
 @-webkit-keyframes gradientBG {
     0% {
